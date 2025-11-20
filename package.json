@@ -1,0 +1,35 @@
+
+{
+  "name": "proof-of-timestamp",
+  "version": "1.0.0",
+  "description": "A minimal Bitcoin-style timestamp service demonstrating how hashed transactions are chained to form an immutable ledger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reala-Innovation/proof-of-timestamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Reala-Innovation/proof-of-timestamp/issues"
+  },
+  "homepage": "https://github.com/Reala-Innovation/proof-of-timestamp#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "crypto-js": "^4.2.0",
+    "elliptic": "^6.6.1",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "ws": "^8.18.3"
+  }
+}
